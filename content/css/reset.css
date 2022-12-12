@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* ****************************************************************************
+
+	reset.css
+	
+******************************************************************************* */
+
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, p, th, td, figure, blockquote {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    background: #fff;
+    color: #222222;
+}
+body {
+    font: 14px/1.7 'Noto Sans JP', 'ヒラギノ角ゴシック', 'Hiragino Sans', 'Helvetica', sans-serif;
+}
+img {
+    border: 0;
+    vertical-align: top;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+ul, dl, ol {
+    text-indent: 0;
+    list-style: none;
+}
+li {
+    list-style: none;
+}
+address, em, strong, th {
+    font-style: normal;
+    font-weight: normal;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: inherit;
+}
+th, td {
+    text-align: left;
+    vertical-align: top;
+}
